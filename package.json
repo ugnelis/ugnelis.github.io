@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "start": "parcel src/*.pug src/blog/*.pug --open --p 8080 --root-dir src",
+    "build": "parcel build src/*.pug src/blog/*.pug --root-dir src"
+  },
+  "devDependencies": {
+    "@edvinas108/parcel-bundler": "^1.12.3",
+    "pug": "^2.0.4"
+  }
+}

@@ -1,0 +1,32 @@
+doctype html
+html(lang='en-us')
+  block html
+
+  head
+    meta(charset='utf-8')
+
+    meta(name='keywords', content='portfolio, programming, blog')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+
+    meta(name='description', content='Portfolio site, programming blog')
+    meta(name='author', content='Edvinas')
+
+    link(rel='stylesheet' href='/_styles/main.css')
+
+    if title
+      title Edds - #{title}
+    else
+      title Edds
+  body
+    main
+      article
+        if header || date
+          header
+            if header
+              h1 #{header}
+            if date
+              time(datetime=`${date}`) #{date}
+        block content
+        footer
+          | Contact me via
+          | #[a(target='_blank' href='https://github.com/Edvinas01') GitHub]

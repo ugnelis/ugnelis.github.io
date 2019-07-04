@@ -1,0 +1,19 @@
+extends _layouts/main
+
+block html
+  - const header = 'Welcome to Edds'
+
+block content
+  p
+    | Hello there stranger, glad that you came by. What is this you might be
+    | thinking, well this is a website where I write about things that I find
+    | interesting or fun, that's pretty much it.
+
+  h3 About me
+  p
+    | I'm a developer who loves JVM and its ecosystem. I mostly work with
+    | back-end applications though from time to time I dip my nose into
+    | front-end and game development as well.
+
+  h3 Blog
+  p Currently I'm writing a small tech blog, #[a(href='/blog') check it out].
