@@ -11,19 +11,20 @@ html(lang='en-us')
     meta(name='description', content='Portfolio site, programming blog')
     meta(name='author', content='Edvinas')
 
+    link(rel='shortcut icon', type='image/x-icon' href='/_images/cool_dog.ico')
     link(rel='stylesheet' href='/_styles/main.css')
 
     if title
-      title Edds - #{title}
+      title #{title}
     else
       title Edds
   body
     main
       article
-        if header || date
+        if title || date
           header
-            if header
-              h1 #{header}
+            if title
+              h1 #{title }
             if date
               time(datetime=`${date}`) #{date}
         block content

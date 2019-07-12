@@ -1,9 +1,16 @@
 extends _layouts/main
 
 block html
-  - const header = 'Welcome to Edds'
+  - const title = 'Welcome to Edds'
 
 block content
+  img(
+    src='/_images/cool_dog.jpg'
+    class='border center'
+    width='50%'
+    alt='My dog Bill'
+  )
+
   p
     | Hello there stranger, glad that you came by. What is this you might be
     | thinking, well this is a website where I write about things that I find

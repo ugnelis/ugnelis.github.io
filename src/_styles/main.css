@@ -53,3 +53,13 @@ a:hover {
 ::selection {
   background-color: #fff888;
 }
+
+img.border {
+  border-radius: 1%;
+}
+
+img.center {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
