@@ -1,6 +1,7 @@
 # Edds [![CircleCI](https://circleci.com/gh/Edvinas01/edds.svg?style=svg)](https://circleci.com/gh/Edvinas01/edds)
-Minimalistic portfolio, programming, blog site built using [Hugo]. Live 
-version can be seen [here](https://edvinas.dev).
+Minimalistic portfolio, programming, blog site built using 
+[Hugo](https://gohugo.io). Live version can be seen 
+[here](https://edvinas.dev).
 
 ## Prerequisites
 Make sure you have [Hugo](https://gohugo.io/getting-started/installing) 
@@ -26,4 +27,4 @@ is meant to be run by [CircleCI](https://circleci.com/gh/Edvinas01/edds)):
 ## Other
 Stuff I referenced when creating this project:
 * https://jgthms.com/web-design-in-4-minutes
-* https://jrl.ninja/etc/1/
+* https://jrl.ninja/etc/1
