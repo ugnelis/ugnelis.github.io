@@ -1,0 +1,17 @@
+disableHugoGeneratorInject: true
+disableKinds:
+  - taxonomy
+  - taxonomyTerm
+  - RSS
+  - sitemap
+
+languageCode: en-us
+baseURL: https://edvinas.dev
+
+params:
+  description: Portfolio site, programming blog
+  contactUrl: https://github.com/Edvinas01
+  sourceUrl: https://github.com/Edvinas01/edds
+  author: Edvinas
+  images:
+    - /cool_dog.jpg

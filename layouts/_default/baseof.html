@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    <meta charset="utf-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description" content="{{ .Site.Params.description }}">
+    <meta name="author" content="{{ .Site.Params.author }}">
+
+    {{ template "_internal/opengraph.html" . }}
+
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+
+    {{ $rawMainStyle := resources.Get "main.css" }}
+    {{ $mainStyle := $rawMainStyle | resources.Minify | fingerprint "md5" }}
+    <link rel="stylesheet" href="{{ $mainStyle.Permalink }}"/>
+
+    {{ if isset .Params "title" }}
+    <title>
+      {{ .Params.title }}
+    </title>
+    {{ else }}
+    <title>
+      Edds
+    </title>
+    {{ end }}
+  </head>
+  <body>
+    <main>
+      <article>
+        {{ if or (isset .Params "title") (isset .Params "date") }}
+        <header>
+          {{ if isset .Params "title" }}
+          <h1>{{ .Params.title }}</h1>
+          {{ end }}
+          {{ if isset .Params "date" }}
+          {{ $formattedDateTime := dateFormat "2006-01-02" .Params.date }}
+          <time datetime="{{ $formattedDateTime }}">
+            {{ dateFormat "2006, Jan 2, Monday" .Params.date }}
+          </time>
+          {{ end }}
+        </header>
+        {{ end }}
+        {{ block "main" . }}
+        {{ end }}
+        <footer>
+          Contact me via
+          <a target="_blank" href="{{ .Site.Params.contactUrl }}">
+            GitHub
+          </a>
+        </footer>
+      </article>
+    </main>
+  </body>
+</html>

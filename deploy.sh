@@ -14,11 +14,8 @@ if [[ "${CIRCLE_BRANCH}" == "${GH_SRC_BRANCH}" ]]; then
   git rm -rf .
 
   # Copy over required files.
-  cp -a ../dist/. .
+  cp -a ../public/. .
   cp -a ../.circleci .
-
-  # Set domain.
-  echo "${GH_DOMAIN}" > CNAME
 
   # Push to result.
   git add -A

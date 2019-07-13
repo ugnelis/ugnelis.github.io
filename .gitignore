@@ -1,7 +1,5 @@
-/node_modules
-/dist
+/resources
+/public
 
-/.cache
 /.idea
-
 /*.iml
