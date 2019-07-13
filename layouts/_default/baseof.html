@@ -27,6 +27,9 @@
     {{ end }}
   </head>
   <body>
+    <a href="/" title="Home">
+      <div class="banner"></div>
+    </a>
     <main>
       <article>
         {{ if or (isset .Params "title") (isset .Params "date") }}
@@ -46,7 +49,11 @@
         {{ end }}
         <footer>
           Contact me via
-          <a target="_blank" href="{{ .Site.Params.contactUrl }}">
+          <a
+            target="_blank"
+            href="{{ .Site.Params.contactUrl }}"
+            title="GitHub profile"
+          >
             GitHub
           </a>
         </footer>

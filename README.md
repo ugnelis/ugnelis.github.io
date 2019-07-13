@@ -1,6 +1,6 @@
 # Edds [![CircleCI](https://circleci.com/gh/Edvinas01/edds.svg?style=svg)](https://circleci.com/gh/Edvinas01/edds)
-Minimalistic portfolio, programming, blog site. Live version can be seen 
-[here](https://edvinas.dev).
+Minimalistic portfolio, programming, blog site built using [Hugo]. Live 
+version can be seen [here](https://edvinas.dev).
 
 ## Prerequisites
 Make sure you have [Hugo](https://gohugo.io/getting-started/installing) 
