@@ -12,9 +12,11 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
-    {{ $rawMainStyle := resources.Get "main.css" }}
-    {{ $mainStyle := $rawMainStyle | resources.Minify | fingerprint "md5" }}
-    <link rel="stylesheet" href="{{ $mainStyle.Permalink }}"/>
+    {{ with resources.Get "main.css" | minify }}
+    <style>
+      {{ .Content | safeCSS }}
+    </style>
+    {{ end }}
 
     {{ if isset .Params "title" }}
     <title>
