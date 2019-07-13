@@ -22,19 +22,6 @@ time {
   color: #888;
 }
 
-pre {
-  white-space: pre-wrap;
-}
-
-hr {
-  border: 2px solid #ddd;
-  margin: 2rem auto;
-}
-
-#fn {
-  font-size: 85%;
-}
-
 footer {
   margin-top: 2rem;
   text-align: center;
