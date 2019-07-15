@@ -1,27 +1,28 @@
 ---
-title: Welcome to Edds
-
-sourceUrl: https://github.com/Edvinas01/edds
-sanyoUrl: https://www.instagram.com/sanyo_wave
+title: Edds
 ---
 
-Hello there stranger, glad that you came by. What is this you might be
-thinking, well this is a site where I write about things that I find
-interesting or fun, that's pretty much it.
+This is a site where I write about tech, non tech stuff, personal projects and
+alike. Basically things I find interesting. Checkout the links scattered around
+this page, you might find something interesting.
 
-If you're interested in how this site is built, you can find the source
-<a href={{< param "sourceUrl" >}} target="_blank" title="Project source code">
-here</a>.
+At the moment I'm writing a blog, [check it out](/blog "Blog").
 
 ### About
-I'm a developer who loves JVM and its ecosystem. I mostly work with
-back-end applications though from time to time I dip my nose into
-front-end and game development as well.
+My name is Edvinas Danevičius (or Edd, hence the site name). I'm a developer
+who loves JVM and its ecosystem. I mostly write back-end applications with Java
+and or Kotlin. However from time to time I dip my nose into front-end and game
+development as well.
 
-### Blog
-Currently I'm writing a small blog, check it out <a href="/blog" title="Blog">
-here</a>.
+I like clean, structured and tested code. Static analysis and automation tools
+which help me to stay on this track are my best friends.
 
-### Other
-Thanks <a href="{{< param "sanyoUrl">}}" target="_blank" 
-title="SANYO 波 Instagram page">SANYO 波</a> for the awesome banner picture.
+### Contact
+If you have some suggestions or just want to chat, contact me via [GitHub]
+(https://github.com/Edvinas01 "My GitHub profile"). Also thanks to these guys
+for giving me some ideas:
+
+- [SANYO 波](https://www.instagram.com/sanyo_wave "SANYO 波 instagram page") -
+the banner picture. 
+- [Josh](https://jrl.ninja "Josh web-page") - inspiration and styling for this
+site.

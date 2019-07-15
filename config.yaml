@@ -8,9 +8,14 @@ disableKinds:
 languageCode: en-us
 baseURL: https://edvinas.dev
 
+pygmentsUseClasses: true
+pygmentsStyle: github
+
+blackfriday:
+  hrefTargetBlank: true
+
 params:
-  description: Portfolio site, programming blog
-  contactUrl: https://github.com/Edvinas01
+  description: Programming and other random stuff
   author: Edvinas
   images:
     - /cool_dog.jpg

@@ -1,0 +1,12 @@
+<nav>
+  <ol>
+    {{ range sort .Page.Sections "Date" "desc" }}
+      <li>
+        <a href="{{ .Permalink }}" title="&quot;{{ .Title }}&quot; blog entry">
+          {{ .Title }}
+        </a>
+        {{ partial "date" . }}
+      </li>
+    {{ end }}
+  </ol>
+</nav>

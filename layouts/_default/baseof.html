@@ -12,53 +12,38 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
-    {{ with resources.Get "main.css" | minify }}
-    <style>
-      {{ .Content | safeCSS }}
-    </style>
+    {{ $syntaxCss := resources.Get "syntax.css" }}
+    {{ $mainCss := resources.Get "main.css" }}
+    {{ $bundle := slice $syntaxCss $mainCss  | resources.Concat "bundle.css"}}
+
+    {{ with $bundle | minify }}
+      <style type="text/css">
+        {{ .Content | safeCSS }}
+      </style>
     {{ end }}
 
     {{ if isset .Params "title" }}
-    <title>
-      {{ .Params.title }}
-    </title>
+      <title>
+        {{ .Params.title }}
+      </title>
     {{ else }}
-    <title>
-      Edds
-    </title>
+      <title>
+        Edds
+      </title>
     {{ end }}
   </head>
   <body>
-    <a href="/" title="Home">
+    <a href="/" title="Back to Home">
       <div class="banner"></div>
     </a>
     <main>
       <article>
-        {{ if or (isset .Params "title") (isset .Params "date") }}
         <header>
-          {{ if isset .Params "title" }}
-          <h1>{{ .Params.title }}</h1>
-          {{ end }}
-          {{ if isset .Params "date" }}
-          {{ $formattedDateTime := dateFormat "2006-01-02" .Params.date }}
-          <time datetime="{{ $formattedDateTime }}">
-            {{ dateFormat "2006, Jan 2, Monday" .Params.date }}
-          </time>
+          {{ block "header" . }}
           {{ end }}
         </header>
-        {{ end }}
         {{ block "main" . }}
         {{ end }}
-        <footer>
-          Contact me via
-          <a
-            target="_blank"
-            href="{{ .Site.Params.contactUrl }}"
-            title="GitHub profile"
-          >
-            GitHub
-          </a>
-        </footer>
       </article>
     </main>
   </body>

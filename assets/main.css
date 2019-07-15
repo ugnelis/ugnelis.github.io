@@ -1,6 +1,7 @@
+/* Main structure */
 body {
   font-family: Liberation Sans, Arial, sans-serif;
-  background-color: #fffaf7;
+  background-color: #fff5ef;
   line-height: 1.5;
 }
 
@@ -10,11 +11,12 @@ html, body {
 }
 
 main {
-  max-width: 70ch;
+  max-width: 80ch;
   padding: 2ch;
   margin: auto;
 }
 
+/* Text formatting */
 header {
   margin-bottom: 1.5rem;
 }
@@ -23,15 +25,11 @@ h1 {
   margin-bottom: .5rem;
 }
 
-time {
-  color: #888;
+p {
+  text-align: justify;
 }
 
-footer {
-  margin-top: 2rem;
-  text-align: center;
-}
-
+/* Links */
 a {
   color: #ff3c3c;
   text-decoration: none;
@@ -42,30 +40,58 @@ a:hover {
   text-decoration: underline;
 }
 
-::selection {
-  background-color: #fff888;
+/* Code style */
+pre {
+  padding: 8px;
+  border-radius: 3px;
+  border: #d3d3d3 1px solid;
 }
 
-img.border {
-  border-radius: 1%;
+code:not([class^="language-"]) {
+  background-color: #ffffff;
+  border-radius: 3px;
+  white-space: nowrap;
+  padding: 2px;
+  border: #d3d3d3 1px solid;
 }
 
-img.center {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
-}
-
+/* Images and pretties */
 div.banner {
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-image: url("/banner.jpg");
   background-size: cover;
 
-  -webkit-box-shadow: inset 0 -10px 10px -10px #000000;
-  -moz-box-shadow: inset 0 -10px 10px -10px #000000;
-  box-shadow: inset 0 -10px 10px -10px #000000;
+  -webkit-box-shadow: inset 0 -10px 10px -10px #000;
+  -moz-box-shadow: inset 0 -10px 10px -10px #000;
+  box-shadow: inset 0 -10px 10px -10px #000;
 
   height: 100px;
   width: 100%;
+}
+
+img {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+/* Navigation */
+nav ol {
+  list-style-type: none;
+  padding: 1rem 0;
+}
+
+nav > ol > li > a {
+  display: inline-block;
+}
+
+nav > ol > li > time {
+  float: right;
+  color: #888;
+}
+
+/* Misc */
+time {
+  color: #888;
 }

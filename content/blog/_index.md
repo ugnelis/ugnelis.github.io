@@ -2,4 +2,4 @@
 title: Blog
 ---
 
-Work in progress...
+{{< section-list >}}

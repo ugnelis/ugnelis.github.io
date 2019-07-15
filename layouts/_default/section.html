@@ -1,3 +1,31 @@
+{{ define "breadcrumb" }}
+  {{ if .currentPage.Parent }}
+    {{ template "breadcrumb" dict "currentPage" .currentPage.Parent }}
+  {{ end }}
+
+  {{ if eq .id .currentPage.File.UniqueID }}
+    {{ .currentPage.Title }}
+  {{ else if .currentPage.IsHome }}
+    <a
+      href="{{ .currentPage.Permalink }}"
+      title="Back to Home"
+    >Home</a> /
+  {{ else }}
+    <a
+      href="{{ .currentPage.Permalink }}"
+      title="Back to {{ .currentPage.Title }}"
+    >{{ .currentPage.Title }}</a> /
+  {{ end }}
+{{ end }}
+
+{{ define "header" }}
+  {{ template "breadcrumb" dict "currentPage" .Page "id" .File.UniqueID }}
+  <h1>
+    {{ .Params.Title }}
+  </h1>
+  {{ partial "date" . }}
+{{ end }}
+
 {{ define "main" }}
   {{ .Content }}
 {{ end }}
