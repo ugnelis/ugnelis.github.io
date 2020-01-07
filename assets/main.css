@@ -7,6 +7,7 @@ body {
   font-family: Liberation Sans, Arial, sans-serif;
   background-color: #fffaf7;
   line-height: 1.5;
+  text-align: justify;
 }
 
 html, body {
@@ -27,10 +28,6 @@ header {
 
 h1 {
   margin-bottom: .5rem;
-}
-
-p {
-  text-align: justify;
 }
 
 /* Links */
