@@ -11,8 +11,13 @@ baseURL: https://edvinas.dev
 pygmentsUseClasses: true
 pygmentsStyle: github
 
-blackfriday:
-  hrefTargetBlank: true
+markup:
+
+  # TODO: use Goldmark once it has hrefTargetBlank feature.
+  defaultMarkdownHandler: blackFriday
+
+  blackFriday:
+    hrefTargetBlank: true
 
 params:
   description: Programming and other random stuff
