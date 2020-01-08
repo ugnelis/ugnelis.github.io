@@ -25,7 +25,7 @@ Later on one of my friends introduced me to a band called Justice. From that poi
 ### DJ mixes
 When I started gaining more interest in programming, my music taste changed as well. French House and other Electronic genres were too distracting when trying to focus. Probably the biggest annoyance was rough transitions between the tracks. Due to this, I started listening to DJ mixes by Digitalism and Justice exclusively. However that didn't last for too long as well.
 
-At this point I started actively looking for something new. I got into Techno (the slow kind), Dark Disco and other underground music genres. The mixes that stuck with me for a while were slow, with no lyrics (groovy bass guitar was a bonus). At this point I was mostly listening DJs such as Manfredas, Sacha Funke, Budino, Thomas Von Party etc.
+At this point I started actively looking for something new. I got into Techno (the slow kind), Dark Disco and other underground music genres. The mixes that stuck with me for a while were slow, with no lyrics (groovy bass guitar was a bonus). I was mostly listening DJs such as Manfredas, Sacha Funke, Budino, Thomas Von Party etc.
 
 ### Vaporwave
 I got introduced to Vaporwave way before gaining interest into DJ mixes, however I never really spent time actively looking for specific artists or tracks. Recently I found out that this genre works really well with programming as its ambient and slow nature doesn't distract me too much.
