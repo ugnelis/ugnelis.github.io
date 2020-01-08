@@ -16,5 +16,5 @@ If you have some suggestions or just want to chat, contact me via one of the ema
 
 Also thanks to these guys:
 
-- [Dovydas Reitelaitis](https://www.instagram.com/reitelaitis "Dovydas Reitelaitis instagram page") - the banner picture.
-- [Josh](https://jrl.ninja "Josh web-page") - inspiration and styling for this site.
+- [Dovydas Reitelaitis](https://www.instagram.com/reitelaitis "Dovydas Reitelaitis instagram page") - the site picture.
+- [Josh](https://jrl.ninja "Josh's web-page") - inspiration and styling for this site.
