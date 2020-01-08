@@ -2,4 +2,4 @@
 title: Blog
 ---
 
-{{< section-list >}}
+{{< sections >}}

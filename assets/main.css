@@ -7,7 +7,6 @@ body {
   font-family: Liberation Sans, Arial, sans-serif;
   background-color: #fffaf7;
   line-height: 1.5;
-  text-align: justify;
 }
 
 html, body {
@@ -69,10 +68,18 @@ div.banner {
   width: 100%;
 }
 
-img {
-  margin-right: auto;
-  margin-left: auto;
-  display: block;
+div.gallery {
+  justify-content: space-between;
+  display: flex;
+}
+
+div.gallery > img {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  width: 100%;
+}
+
+div.gallery > img:not(:last-child) {
+  margin-right: 2ch;
 }
 
 /* Navigation */

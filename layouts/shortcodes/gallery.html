@@ -1,0 +1,11 @@
+<div class="gallery">
+  {{ $len := div (len .Params) 2 }}
+  {{ $seq := seq 0 (sub $len 1) }}
+
+  {{ range $idx := $seq }}
+    {{ $src := $.Get (mul $idx 2) }}
+    {{ $txt := $.Get (add (mul $idx 2) 1)}}
+
+    <img src="{{ $src }}" title="{{ $txt }}" alt="{{ $txt }}" />
+  {{ end }}
+</div>
