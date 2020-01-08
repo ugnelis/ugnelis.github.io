@@ -15,5 +15,6 @@ I like clean, structured and tested code. Static analysis and automation tools w
 If you have some suggestions or just want to chat, contact me via one of the emails I use on [GitHub](https://github.com/Edvinas01 "My GitHub profile").
 
 Also thanks to these guys:
+
 - [Dovydas Reitelaitis](https://www.instagram.com/reitelaitis "Dovydas Reitelaitis instagram page") - the banner picture.
 - [Josh](https://jrl.ninja "Josh web-page") - inspiration and styling for this site.

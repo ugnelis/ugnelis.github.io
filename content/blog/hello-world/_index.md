@@ -14,6 +14,7 @@ In this first post, I'll talk about how I came about setting up this whole thing
 Making a simple site is actually quite easy - just grab a few `.html` and `.css` files, drop them on a server and you're done. However that wont suffice in the long run. For example if you plan on having a fancy header, footer and alike, you'll have to copy that content over and over again. Furthermore it would be wise to compress that content to reduce the load for your readers. Doing all of this by hand is not fun.
 
 So to achieve that, I need the following:
+
 * As little JavaScript as possible - avoid support issues across different browsers.
 * Static content compression tool - squeeze out as much performance as possible.
 * Something for templating - avoid copying stuff.
