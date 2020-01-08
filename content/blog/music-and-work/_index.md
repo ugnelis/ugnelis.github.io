@@ -28,7 +28,7 @@ When I started gaining more interest in programming, my music taste changed as w
 At this point I started actively looking for something new. I got into Techno (the slow kind), Dark Disco and other underground music genres. The mixes that stuck with me for a while were slow, with no lyrics (groovy bass guitar was a bonus). I was mostly listening DJs such as Manfredas, Sacha Funke, Budino, Thomas Von Party etc.
 
 ### Vaporwave
-I got introduced to Vaporwave way before gaining interest into DJ mixes, however I never really spent time actively looking for specific artists or tracks. Recently I found out that this genre works really well with programming as its ambient and slow nature doesn't distract me too much.
+I got introduced to Vaporwave way before gaining interest into DJ mixes, however I never really spent time actively looking for specific artists or tracks. Recently I found out that this genre works really well with programming as its ambient and slow nature isn't too distracting.
 
 The downside is that you have to dig a bit to find something decent as there is a lot of junk. A lot of people refer to this genre as a meme, so quite a few tracks are made just for laughs. Yet there are some hidden gems hiding in SoundCloud and Bandcamp, waiting to be discovered.
 
@@ -46,7 +46,7 @@ At one point I tried getting into Spotify as I've heard it provides good suggest
 
 Alternatively, there is SoundCloud Weekly. This feature rarely gave me good suggestions as well. From time to time I would find a nice track, but that is a rare case. Last time I used this feature was half a year ago.
 
-I believe that right now, the best way to get a continuous stream of new music that you like is to find a few DJs or a producers whom are active on SoundCloud and follow them (as in using the _Follow_ functionality). After a while your _Stream_ will get flooded with new music. The added bonus is that the tracks are going be fresh (however sometimes the mastering can be a bit poor). I'm assuming this method would work on Spotify as well, given you could find your favorite artists/DJs on the platform.
+I believe that right now, the best way to get a continuous stream of new music that you like is to find a few DJs or producers whom are active on SoundCloud and follow them (as in using the _Follow_ functionality). After a while your _Stream_ will get flooded with new music. The added bonus is that the tracks are going be fresh (however sometimes the mastering can be a bit poor). I'm assuming this method would work on Spotify as well, given you could find your favorite artists/DJs on the platform.
 
 ### Goodies
 [Everything]: https://soundcloud.com/edvinas-danevicius/sets/everything "SoundCloud playlist with lots of mixes"
