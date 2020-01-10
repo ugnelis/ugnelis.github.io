@@ -1,6 +1,14 @@
-<nav>
-  <ol>
-    {{ range sort .Page.Sections "Date" "desc" }}
+{{ define "header" }}
+  <h1>
+    {{ .Params.Title }}
+  </h1>
+{{ end }}
+
+{{ define "main" }}
+  {{ .Content }}
+
+  <ol class="sections">
+    {{ range sort .Pages "Date" "desc" }}
       <li>
         <a href="{{ .Permalink }}" title="&quot;{{ .Title }}&quot; blog entry">
           {{ .Title }}
@@ -9,4 +17,4 @@
       </li>
     {{ end }}
   </ol>
-</nav>
+{{ end }}

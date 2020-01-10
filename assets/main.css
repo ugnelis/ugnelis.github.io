@@ -4,7 +4,7 @@ html {
 }
 
 body {
-  font-family: Liberation Sans, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   background-color: #fffaf7;
   line-height: 1.5;
 }
@@ -82,17 +82,17 @@ div.gallery > img:not(:last-child) {
   margin-right: 2ch;
 }
 
-/* Navigation */
-nav ol {
+/* Section list */
+ol.sections {
   list-style-type: none;
-  padding: 1rem 0;
+  padding: 0;
 }
 
-nav ol li a {
+ol.sections li a {
   display: inline-block;
 }
 
-nav ol li time {
+ol.sections li time {
   float: right;
   color: #888;
 }
