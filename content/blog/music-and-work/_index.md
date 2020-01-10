@@ -4,7 +4,7 @@ date: 2020-01-08
 ---
 
 ### Background
-Up until I was 14 years old or so, I wasn't interested in music. However things changed when I got into level design. I noticed that music can help shape ideas and steer the flow when when doing any artwork. Playing a favorite song would draw an image in my head which I could easily visualise and follow.
+Up until I was 14 years old or so, I wasn't interested in music. However things changed when I got into level design. I noticed that music can help shape ideas and steer the flow when doing any artwork. Playing a favorite song would draw an image in my head which I could easily visualise and follow.
 
 {{<
   gallery
