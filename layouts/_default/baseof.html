@@ -12,11 +12,7 @@
 
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
 
-    {{ $syntaxCss := resources.Get "syntax.css" }}
-    {{ $mainCss := resources.Get "main.css" }}
-    {{ $bundle := slice $syntaxCss $mainCss  | resources.Concat "bundle.css"}}
-
-    {{ with $bundle | minify }}
+    {{ with resources.Get "main.css" | minify }}
       <style type="text/css">
         {{ .Content | safeCSS }}
       </style>

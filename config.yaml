@@ -8,9 +8,6 @@ disableKinds:
 languageCode: en-us
 baseURL: https://edvinas.dev
 
-pygmentsUseClasses: true
-pygmentsStyle: github
-
 markup:
 
   # TODO: use Goldmark once it has hrefTargetBlank feature.
@@ -18,6 +15,7 @@ markup:
 
   blackFriday:
     hrefTargetBlank: true
+    noreferrerLinks: true
 
 params:
   description: Programming and other random stuff
