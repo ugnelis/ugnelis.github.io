@@ -6,7 +6,7 @@ title: Thanks
 [Jeremy Thomas]: https://jgthms.com/web-design-in-4-minutes/ "Jeremy Thomas article on Web Design"
 [Josh]: https://jrl.ninja "Josh's webpage"
 
-When working on this site, content and articles by these guys was used:
+When working on this site I used content and articles by these guys:
 
 - [Dovydas Reitelaitis] - the site picture.
 - [Jeremy Thomas] - great article on web design.
