@@ -18,7 +18,8 @@ markup:
     noreferrerLinks: true
 
 params:
-  description: Programming and other random stuff
+  description: Programming, music and other relevant things
   author: Edvinas
+  name: edvinas.dev
   images:
     - /icon.png

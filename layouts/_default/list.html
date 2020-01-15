@@ -1,20 +1,19 @@
-{{ define "header" }}
-  <h1>
-    {{ .Params.Title }}
-  </h1>
-{{ end }}
-
 {{ define "main" }}
   {{ .Content }}
 
-  <ol class="sections">
-    {{ range sort .Pages "Date" "desc" }}
-      <li>
-        <a href="{{ .Permalink }}" title="&quot;{{ .Title }}&quot; blog entry">
-          {{ .Title }}
-        </a>
+  {{ range sort .Pages "Date" "desc" }}
+    <article>
+      <header>
+        <h3>
+          <a href="{{ .RelPermalink }}" title="{{ .Params.title }} blog entry">
+            {{ .Params.title }}
+          </a>
+        </h3>
         {{ partial "date" . }}
-      </li>
-    {{ end }}
-  </ol>
+      </header>
+      <p>
+        {{ .Params.description }}
+      </p>
+    </article>
+  {{ end }}
 {{ end }}

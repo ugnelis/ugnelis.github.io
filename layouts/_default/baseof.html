@@ -24,20 +24,38 @@
       </title>
     {{ else }}
       <title>
-        Edds
+        {{ .Site.Params.name }}
       </title>
     {{ end }}
   </head>
   <body>
-    <a href="/" title="Back to Home page">
-      <div class="banner"></div>
-    </a>
+    <header>
+      <h1>
+        <a href="/" title="{{ .Site.Home.Params.title }} page">
+          {{ .Site.Params.name }}
+        </a>
+      </h1>
+      <nav>
+        {{ range (union .Site.Sections (where .Site.Pages "Type" "page")) }}
+          {{ if ne .Site.Home . }}
+            <a href="{{ .RelPermalink }}" title="{{ .Title }} page" >
+              {{ .Title }}
+            </a>
+          {{ end }}
+        {{ end }}
+      </nav>
+    </header>
     <main>
       <article>
-        <header>
-          {{ block "header" . }}
-          {{ end }}
-        </header>
+        {{ if isset .Params "title" }}
+          <header>
+            <h2>
+              {{ .Params.title }}
+            </h2>
+            {{ partial "date" . }}
+          </header>
+        {{ end }}
+
         {{ block "main" . }}
         {{ end }}
       </article>

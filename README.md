@@ -19,8 +19,3 @@ Deploy the site to [GitHub Pages](https://pages.github.com) (note, this script i
 ```bash
 ./deploy.sh
 ```
-
-## Other
-Stuff I referenced when creating this project:
-* https://jgthms.com/web-design-in-4-minutes
-* https://jrl.ninja/etc/1
