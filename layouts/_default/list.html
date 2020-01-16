@@ -1,19 +1,22 @@
 {{ define "main" }}
   {{ .Content }}
 
-  {{ range sort .Pages "Date" "desc" }}
-    <article>
-      <header>
-        <h3>
-          <a href="{{ .RelPermalink }}" title="{{ .Params.title }} blog entry">
-            {{ .Params.title }}
-          </a>
-        </h3>
-        {{ partial "date" . }}
-      </header>
-      <p>
-        {{ .Params.description }}
-      </p>
-    </article>
-  {{ end }}
+  <div class="articles">
+    {{ range sort .Pages "Date" "desc" }}
+      <article>
+        <header>
+          <h3>
+            <a
+              href="{{ .RelPermalink }}"
+              title="{{ .Params.title }}"
+            >{{ .Params.title }}</a>
+          </h3>
+          {{ partial "date" . }}
+        </header>
+        <p>
+          {{ .Params.description }}
+        </p>
+      </article>
+    {{ end }}
+  </div>
 {{ end }}

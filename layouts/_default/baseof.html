@@ -29,7 +29,7 @@
     {{ end }}
   </head>
   <body>
-    <header>
+    <header class="navigation">
       <h1>
         <a href="/" title="{{ .Site.Home.Params.title }} page">
           {{ .Site.Params.name }}
@@ -38,9 +38,10 @@
       <nav>
         {{ range (union .Site.Sections (where .Site.Pages "Type" "page")) }}
           {{ if ne .Site.Home . }}
-            <a href="{{ .RelPermalink }}" title="{{ .Title }} page" >
-              {{ .Title }}
-            </a>
+            <a
+              href="{{ .RelPermalink }}"
+              title="{{ .Title }} page"
+            >{{ .Title }}</a>
           {{ end }}
         {{ end }}
       </nav>
