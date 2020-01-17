@@ -1,5 +1,5 @@
-# Edds ![GitHub Actions](https://github.com/Edvinas01/edds/workflows/GitHub%20pages/badge.svg)
-Minimalistic, portfolio, programming, blog site built using [Hugo](https://gohugo.io).
+# Edds ![GitHub pages deployment badge](https://github.com/Edvinas01/edds/workflows/GitHub%20Pages/badge.svg)
+Minimalistic, portfolio, programming, blog site.
 
 ## Prerequisites
 Make sure you have [Hugo 0.62.2](https://gohugo.io/getting-started/installing) installed.

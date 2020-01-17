@@ -38,9 +38,7 @@
         <a
           href="{{ .Site.Home.RelPermalink }}"
           title="{{ .Site.Home.Params.title }} page"
-        >
-          {{ .Site.Params.name }}
-        </a>
+        >{{ .Site.Params.name }}</a>
       </h1>
       <nav>
         {{ range (union .Site.Sections (where .Site.Pages "Type" "page")) }}
