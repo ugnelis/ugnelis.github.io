@@ -22,4 +22,4 @@ params:
   author: Edvinas
   name: edvinas.dev
   images:
-    - /icon.png
+    - icon.png

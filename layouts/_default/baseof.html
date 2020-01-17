@@ -10,7 +10,11 @@
 
     {{ template "_internal/opengraph.html" . }}
 
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="{{ "/favicon.ico" | relURL }}"
+    />
 
     {{ with resources.Get "main.css" | minify }}
       <style type="text/css">
@@ -31,7 +35,10 @@
   <body>
     <header class="navigation">
       <h1>
-        <a href="/" title="{{ .Site.Home.Params.title }} page">
+        <a
+          href="{{ .Site.Home.RelPermalink }}"
+          title="{{ .Site.Home.Params.title }} page"
+        >
           {{ .Site.Params.name }}
         </a>
       </h1>
