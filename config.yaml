@@ -18,8 +18,8 @@ markup:
     noreferrerLinks: true
 
 params:
-  description: Programming, music and other relevant things
-  author: Ugnius Malukas
-  name: malukas.lt
+  description: Robotics, Artificial Intelligence and Entrepreneurship.
+  author: Ugnius Malūkas
+  name: Ugnius Malūkas
   images:
     - icon.png
