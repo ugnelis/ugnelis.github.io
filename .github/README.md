@@ -1,4 +1,4 @@
-# Edds ![GitHub pages deployment badge](https://github.com/Edvinas01/edds/workflows/GitHub%20Pages/badge.svg)
+# ugnelis.github.io ![GitHub pages deployment badge](https://github.com/ugnelis/ugnelis.github.io/workflows/GitHub%20Pages/badge.svg)
 Minimalistic, portfolio, programming, blog site.
 
 ## Prerequisites

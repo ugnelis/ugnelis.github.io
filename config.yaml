@@ -6,7 +6,7 @@ disableKinds:
   - sitemap
 
 languageCode: en-us
-baseURL: https://edvinas.dev
+baseURL: https://ugnelis.github.io
 
 markup:
 
@@ -19,7 +19,7 @@ markup:
 
 params:
   description: Programming, music and other relevant things
-  author: Edvinas
-  name: edvinas.dev
+  author: Ugnius Malukas
+  name: malukas.lt
   images:
     - icon.png
