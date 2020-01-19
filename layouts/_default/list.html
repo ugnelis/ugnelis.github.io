@@ -11,7 +11,7 @@
               title="{{ .Params.title }}"
             >{{ .Params.title }}</a>
           </h3>
-          {{ partial "date" . }}
+          {{ partial "date" . }} {{ partial "author" . }}
         </header>
         <p>
           {{ .Params.description }}
