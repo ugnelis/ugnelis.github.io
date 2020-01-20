@@ -14,3 +14,5 @@ Build a production ready site under `public` dir:
 ```bash
 hugo --minify
 ```
+## Credits
+This projects is based on [Edvinas01/edds](https://github.com/Edvinas01/edds).
