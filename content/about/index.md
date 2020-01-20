@@ -2,10 +2,7 @@
 title: About
 ---
 
-{{<
-  gallery
-  "me.jpg" "Picture of me"
->}}
+{{< image src="me.jpg" alt="Picture of me" width="75%" height="auto">}}
 
 I am Ugnius Malūkas, currently I am Entrepreneurial Engineering student at Aalborg University (Denmark). At the same time I work as Product Management Student Assistant at OBI+ startup. My current goal is to have deeper business and product development knowledge from managerial side.
 

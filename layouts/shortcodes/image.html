@@ -1,0 +1,9 @@
+
+<div class="image">
+
+{{ with .Get "link"}}<a href="{{.}}">{{ end }}
+    <img width="{{ with .Get "width"}}{{.}}{{ end }}" height="{{ with .Get "height"}}{{.}}{{ end }}" src="{{ .Get "src" }}" {{ if or (.Get "alt") }}alt="{{ with .Get "alt"}}{{.}}{{ end }}"{{ end }} />
+{{ if .Get "link"}}</a>{{ end }}
+
+</div>
+
