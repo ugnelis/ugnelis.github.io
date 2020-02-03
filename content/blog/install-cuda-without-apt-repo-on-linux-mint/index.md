@@ -23,7 +23,10 @@ $ sudo sh cuda_10.1.105_418.39_linux.run
 
 Screen picture:
 
-3 After installation you need open `/etc/environment`:
+{{< image src="cuda-installation.png" alt="CUDA installation" width="100%" height="auto">}}
+
+
+3) After installation you need open `/etc/environment`:
 ```bash
 $ sudo nano /etc/environment
 ```
@@ -47,7 +50,7 @@ Append `PATH` in `/etc/environment` file with a following line:
 
 5) After 3rd and 4th step your `/etc/environment` file should look like this:
 
-{{< image src="environment-file.png" alt="Picture of me" width="100%" height="auto">}}
+{{< image src="environment-file.png" alt="/etc/environment file" width="100%" height="auto">}}
 
 6) Restart the computer:
 ```bash
