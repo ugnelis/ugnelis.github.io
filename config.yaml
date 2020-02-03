@@ -6,7 +6,7 @@ disableKinds:
   - sitemap
 
 languageCode: en-us
-baseURL: https://ugnelis.github.io
+baseURL: https://malukas.lt
 
 markup:
 
