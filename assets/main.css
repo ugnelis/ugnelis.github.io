@@ -72,6 +72,7 @@ object {
 
 /* Main page header, navigation */
 .navigation {
+  font-size: 1.2em;
   justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
