@@ -1,11 +1,11 @@
 ---
 title: Install CUDA 10.1 without APT repistory on Linux Mint 19.3
-description: This article shows how to install CUDA 10.1 with cuDNN without adding APT repository.
+description: This article shows how to install CUDA 10.1 with cuDNN without adding an APT repository.
 date: 2020-02-02
 author: Ugnius Malūkas
 ---
 
-These days many people use NVIDIA graphic cards for increasing speed of computing time, for example, calculating outcomes of Machine Learning algorithms. In order to use a graphic processing of Nvidia GPUs, CUDA has to be installed. This article shows how to install CUDA, cuDNN and TensorRT packages without having Nvidia APT repository.  
+These days many people use NVIDIA graphic cards for increasing speed of computing time, for example, calculating outcomes of Machine Learning algorithms. In order to use a graphic processing of Nvidia GPUs, CUDA has to be installed. This article shows how to install CUDA, cuDNN and TensorRT packages without having a Nvidia APT repository.  
 
 ### Installation
 
@@ -137,4 +137,4 @@ $ sudo dpkg -i libnvinfer-plugin6_6.0.1-1+cuda10.1_amd64.deb
 
 ### Conclusion
 
-If there is a possibility of having an APT repository, I recommend to install CUDA, cuDNN and TensorRT libraries via APT because many of the above mentioned steps would not be needed and would require less effort.
+If there is a possibility of having an APT repository, I recommend installing CUDA, cuDNN and TensorRT libraries via APT because many of the above mentioned steps would not be needed and would require less effort.

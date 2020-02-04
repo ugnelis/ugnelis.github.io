@@ -32,7 +32,7 @@ sudo apt-get update
 $ sudo reboot
 ```
 
-3) Check if GPU are visable using `nvidia-smi` command:
+3) Check if GPU are visible using `nvidia-smi` command:
 ```bash
 $ nvidia-smi
 ```
@@ -87,7 +87,7 @@ $ conda activate tensorflow
 (tensorflow)$ pip install tensorflow-gpu
 ```
 
-#### Verify Installiation
+#### Verify Installation
 1) For verifying *TensorFlow* installation, one of options is to use `ipython`. If it is not installed, use this command:
 ```bash
 (tensorflow)$ pip install ipython.
