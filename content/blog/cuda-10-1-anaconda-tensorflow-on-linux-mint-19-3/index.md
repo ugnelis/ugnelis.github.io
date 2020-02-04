@@ -5,14 +5,14 @@ date: 2020-02-03
 author: Ugnius Malūkas
 ---
 
-In order to install *TensorFlow* for *Nvidia* GPU (418.x+), *Nvidia CUDA* is needed. *TensorFlow* (2.1.0+) only supports *Nvidia CUDA* 10.1. That is why the newiest *CUDA* version cannot be used here.
+In order to install *TensorFlow* for *Nvidia* GPU (418.x+), *Nvidia CUDA* is needed. *TensorFlow* (2.1.0+) only supports *Nvidia CUDA* 10.1. That is why the newest *CUDA* version cannot be used here.
 
 I use *Anaconda* because it helps to separate *Python* versions from system ones and manage dependencies without writing them into *Linux* system folders.
 
 ### Install CUDA
 #### Installation
 
-Be sure that you have already installed Nvidia GPU drivers. My recommendation install it trough Driver Manager.
+Be sure that you have already installed Nvidia GPU drivers. My recommendation is to install it through the Driver Manager.
 
 If you need to install CUDA, cuDNN and TensorRT without APT repository, follow this tutorial: [Install CUDA 10.1 without APT repistory on Linux Mint 19.3](/blog/install-cuda-without-apt-repo-on-linux-mint/).
 
@@ -56,7 +56,7 @@ sudo apt-get install -y --no-install-recommends libnvinfer6=6.0.1-1+cuda10.1 \
 
 1) Download *Anaconda* for *Python 3.7* from [https://www.anaconda.com/distribution/#linux](https://www.anaconda.com/distribution/#linux).
 
-2) Run installation:
+2) Run the installation:
 ```bash
 $ chmod u+x Anaconda3-X.Y.Z-Linux-x86_64.sh
 $ ./Anaconda3-X.Y.Z-Linux-x86_64.sh
@@ -98,7 +98,7 @@ $ conda activate tensorflow
 (tensorflow)$ ipython
 ```
 
-3) Check if *TensorFlow* is installed and GPU is being used:
+3) Check if *TensorFlow* is installed and a GPU is being used:
 ```bash
 (tensorflow)$ pip install ipython.
 
@@ -115,4 +115,4 @@ The result should be similar to this output:
 * [TensorFlow GPU Support](https://www.tensorflow.org/install/gpu)
 
 ### Tested on
-* Lenovo Legion Y740 with GPU GeForce 2060
+* Lenovo Legion Y740 with Nvidia GeForce 2060

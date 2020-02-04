@@ -113,7 +113,7 @@ $ make clean && make
 
 If you see **Test passed!** at the end of the output then installation is complete.
 
-### (Optional) Install Nvidia Libraries Required by TensorRT
+### (Optional) Install Nvidia Libraries Required by TensorFlow
 
 If you are planning to install *TensorFlow (2.1.0+)*, TensorRT is needed to use that library.
 
