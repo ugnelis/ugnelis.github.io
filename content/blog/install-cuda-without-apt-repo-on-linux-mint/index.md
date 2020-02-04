@@ -1,5 +1,5 @@
 ---
-title: Install CUDA 10.1 without APT repistory on Linux Mint 19.3
+title: Install CUDA 10.1 without APT repository on Linux Mint 19.3
 description: This article shows how to install CUDA 10.1 with cuDNN without adding an APT repository.
 date: 2020-02-02
 author: Ugnius Malūkas

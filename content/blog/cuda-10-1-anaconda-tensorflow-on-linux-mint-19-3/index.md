@@ -14,7 +14,7 @@ I use *Anaconda* because it helps to separate *Python* versions from system ones
 
 Be sure that you have already installed Nvidia GPU drivers. My recommendation is to install it through the Driver Manager.
 
-If you need to install CUDA, cuDNN and TensorRT without APT repository, follow this tutorial: [Install CUDA 10.1 without APT repistory on Linux Mint 19.3](/blog/install-cuda-without-apt-repo-on-linux-mint/).
+If you need to install CUDA, cuDNN and TensorRT without APT repository, follow this tutorial: [Install CUDA 10.1 without APT repostory on Linux Mint 19.3](/blog/install-cuda-without-apt-repo-on-linux-mint/).
 
 1) Add NVIDIA package repositories
 ```bash
