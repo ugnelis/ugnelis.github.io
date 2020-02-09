@@ -84,13 +84,7 @@ $ conda activate tensorflow
 
 8) Install *TensorFlow* `GPU` version
 ```bash
-(tensorflow)$ pip install tensorflow-gpu==1.13.1
-```
-
-9) Install missing libraries:
-```bash
-conda install cudatoolkit
-conda install cudnn
+(tensorflow)$ pip install tensorflow-gpu
 ```
 
 #### Verify Installation
